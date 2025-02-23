@@ -24,7 +24,7 @@ app.innerHTML = /*html*/ `
       <h1 class="menu__title">To do List</h1>
       <form id="todo_form" class="menu__form">
         <input class="menu__input" id="todo_input"/><button class="menu__add-button" type="submit">Add</button>
-        <p class="menu__error">"Per favore, inserisci un testo!"</p>
+        <p class="menu__error">Per favore, inserisci un testo!</p>
       </form>
     </header>
     <main class="todo">
