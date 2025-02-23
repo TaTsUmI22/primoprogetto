@@ -42,12 +42,12 @@ p {
 
 .menu__error {
     color: red;
-    visibility: hidden;
+    display: none;
     margin: 0;
 }
 
 .menu__form--error .menu__error {
-    visibility: visible;
+    display: block;
 }
 
 .menu__input { 
