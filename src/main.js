@@ -52,12 +52,6 @@ function submitEventHandler(event) {
   todoInput.value = "";
 }
 
-function addEventListener(eventName, callback) {
-  // eventName
-  const myEvent = findEventByName(eventName);
-  callback(myEvent);
-}
-
 todoForm.addEventListener("submit", submitEventHandler);
 
 function renderLi(text, list, i) {
